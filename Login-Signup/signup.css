@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=PT+Serif:wght@700&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap");
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(166, 31, 196),
+    rgb(227, 15, 149)
+  );
+}
+
+.main {
+  height: 450px;
+  width: 350px;
+  background: white;
+  margin: 20px auto;
+  margin-top: 0.8rem;
+  position: relative;
+  border-radius: 0.8rem;
+  padding-top: 0.5px;
+  box-shadow: 5px 5px 10px black;
+
+}
+
+.heading-name {
+  animation: login 2s alternate infinite;
+  padding: 5px;
+  display: flexbox;
+  margin-top: 10px;
+  font-family: roboto;
+  height: 40px;
+  width: auto;
+  text-align: center;
+}
+
+@keyframes login {
+  0% {
+    top: 0 !important;
+    width: 0;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      rgb(166, 31, 196),
+      rgb(227, 15, 149)
+    );
+  }
+
+  25% {
+    top: 50px !important;
+
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      rgb(166, 31, 196),
+      rgb(227, 15, 149)
+    );
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  50% {
+    top: 100px !important;
+
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      rgb(166, 31, 196),
+      rgb(227, 15, 149)
+    );
+    border: 2px solid black;
+    border-radius: 0.8rem;
+  }
+
+  100% {
+    top: 200px !important;
+    width: 200px;
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      rgb(166, 31, 196),
+      rgb(227, 15, 149)
+    );
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
+
+.login-link {
+  height: 40px;
+  width: 150px;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(166, 31, 196),
+    rgb(227, 15, 149)
+  );
+  border-radius: 5px;
+  display: block;
+}
+
+/* for removing link underline using text-decoration properties */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* for signup button link changing a font color */
+.signup-link a {
+  color: black;
+}
+/* for signup link */
+.signup-link {
+  height: 40px;
+  width: 150px;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 180px;
+  border-radius: 0.3rem;
+  display: block;
+  cursor: pointer;
+}
+
+/* signup button hovering */
+.signup-link:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(166, 31, 196),
+    rgb(227, 15, 149)
+  );
+}
+
+.Email-section {
+  height: 30px;
+  width: 304px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 0.3rem;
+}
+
+.confirm-password {
+  height: 30px;
+  width: 304px;
+  margin-top: 15px;
+  margin-left: 20px;
+  border-radius: 0.3rem;
+}
+
+/* for input placeholder font changing */
+input {
+  font-family: roboto;
+}
+/* for login password */
+.password {
+  height: 30px;
+  width: 304px;
+  margin-top: 15px;
+  margin-left: 20px;
+  border-radius: 0.3rem;
+}
+
+/* for forget password  */
+p {
+  color: rgb(251, 0, 197);
+  margin-left: 20px;
+  margin-top: 0.1rem;
+}
+
+.footer-signup-link {
+  height: 40px;
+  width: 310px;
+  font-family: roboto;
+  font-size: 15px;
+  margin-left: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(166, 31, 196),
+    rgb(227, 15, 149)
+  );
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  font-family: roboto;
+  padding: 0.6rem;
+}
+
+/* for targeting new-member div  */
+h5 a {
+  color: rgb(251, 0, 197);
+  font-family: roboto;
+  font-size: 12px;
+}
+
+.old-member {
+  font-size: 20px;
+  text-align: center;
+}
